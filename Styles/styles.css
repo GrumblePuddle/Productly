@@ -37,7 +37,15 @@ a {
 }
 
 button {
-    display: inline-block;
+    background: #FF9900;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
 }
 
 main {
@@ -61,7 +69,6 @@ header {
     left: 0;
 }
 
-
 h1 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -71,14 +78,43 @@ h1 {
     color: #2F281E;
 }
 
-p {
-    font-family: 'Poppins', sans-serif;
+.header-text p {
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
     color: #544837;
 }
+
+.header-text button {
+    height: 53px;
+    width: 175px;
+    margin-right: 20px;
+}
+
+.header-inline-p {
+    display: inline-block;
+    
+}
+
+.header-inline-p a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FF9900;
+}
+
+.header-img img {
+}
+
+
+
+
+
 
 
 .header-large-img {
@@ -98,6 +134,57 @@ section {
 
 
 
+.section-1 {
+
+}
+
+.section-1 h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #2F281E;
+    width: 500px;
+    margin: 20px auto;
+}
+
+
+.section-1-flex {
+    display: flex;
+}
+
+.flex-item {
+    
+    margin: 20px;
+}
+
+.flex-item h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    color: #2F281E;
+
+}
+
+.flex-item p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.section-1 button {
+    width: 100px;
+    display: inline-block;
+    margin: auto;
+}
+
 
 
 .section-2 {
@@ -110,6 +197,34 @@ section {
     position: absolute;
     top: 70px;
     left: 0;
+    top: 0;
+}
+
+.section-2-left h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    color: #2F281E;
+}
+
+.section-2-left h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+.section-2-left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
 }
 
 .section-2-right {
@@ -146,6 +261,33 @@ section {
     height: 427px;
 }
 
+.section-3-right p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837;
+}
+
+.section-3-right h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 24px;
+    color: #2F281E;
+}
+
+.section-3-right-img img {
+    display: inline-block;
+}
+
+.section-3-right-img p {
+    display: inline-block;
+    width: 400px;
+}
+
 
 
 
@@ -158,6 +300,34 @@ section {
     position: absolute;
     top: 0;
     left: 0;
+    width: 470px;
+}
+
+.section-4-left p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+}
+
+.section-4-left h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+}
+
+.section-4-left h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
 }
 
 .section-4-right {
@@ -172,15 +342,41 @@ section {
 footer {
     border: 2px solid black;
     height: 308px;
+    margin-bottom: 20px;
     display: flex;
-    align-items: flex-end;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
+}
+
+.footer-left {
+    display: flex;
 }
 
 .footer-logo {
     align-self: flex-start;
+    transform: translate(-70px, 100px);
 }
 
 .footer-list-1 {
+    align-self: flex-end;
+}
 
+.footer-list-1 ol li {
+    display: block;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-list-2 {
+    align-self: flex-end;
+}
+
+.footer-signup {
+    align-self: flex-end;
+}
+
+.footer-list-2 ol li {
+    display: block;
 }
