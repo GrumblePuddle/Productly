@@ -41,7 +41,8 @@ button {
 }
 
 main {
-    margin: 20px;
+    width: 1126px;
+    margin: auto;
 }
 
 
@@ -50,6 +51,14 @@ main {
 header {
     border: 2px solid black;
     position: relative;
+    height: 496px;
+}
+
+.header-text {
+    width: 518px;
+    position: absolute;
+    top: 70px;
+    left: 0;
 }
 
 
@@ -83,8 +92,95 @@ p {
 
 section {
     border: 2px solid black;
+    margin: 20px 0;
 }
+
+
+
+
+
+
+.section-2 {
+    position: relative;
+    height: 574px;
+}
+
+.section-2-left {
+    width: 486px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.section-2-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.section-2-img {
+    height: 574px;
+    width: 520px;
+}
+
+
+
+
+.section-3 {
+    position: relative;
+    height: 521px;
+
+}
+
+.section-3-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-3-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 486px;
+    height: 427px;
+}
+
+
+
+
+.section-4 {
+    position: relative;
+    height: 609px;
+}
+
+.section-4-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.section-4-right {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
 
 footer {
     border: 2px solid black;
+    height: 308px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.footer-logo {
+    align-self: flex-start;
+}
+
+.footer-list-1 {
+
 }
